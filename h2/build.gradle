@@ -4,6 +4,12 @@ dependencies {
 
     api "io.micronaut:micronaut-inject"
 
+    api "io.micronaut:micronaut-servlet"
+
+    compileOnly "com.h2database:h2:1.4.200"
+
+    implementation("io.micronaut.servlet:micronaut-http-server-tomcat:1.0.2")
+
     testImplementation("org.spockframework:spock-core:${spockVersion}") {
         exclude module:'groovy-all'
     }

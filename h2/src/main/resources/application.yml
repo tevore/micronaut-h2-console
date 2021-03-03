@@ -1,0 +1,4 @@
+micronaut:
+  server:
+    tomcat:
+      throw-on-failure: true
